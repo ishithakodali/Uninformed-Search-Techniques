@@ -59,12 +59,13 @@ README.md             -> Project documentation
 - Node expansion tracking
 
 ## Key Insights
-Best For | Algorithm
-Shortest path (unweighted graph) | BFS
-Very deep solutions | DFS
-Avoid infinite depth | DLS
-Best general uninformed search | IDS
-Weighted graphs | UCS
+| Best For | Algorithm |
+|----------|------------|
+| Shortest path (unweighted graph) | BFS |
+| Very deep solutions | DFS |
+| Avoid infinite depth | DLS |
+| Best general uninformed search | IDS |
+| Weighted graphs | UCS |
 The major tradeoff between these algorithms is time vs memory.
 - BFS -> fastest to find shortest path but uses huge memory
 - DFS -> low memory but unreliable
