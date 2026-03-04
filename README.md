@@ -1,4 +1,15 @@
-# Uninformed-Search-Techniques
+# Files
+uninformed_search.c  
+Implementation of uninformed search algorithms on a graph:
+- Breadth First Search (BFS)
+- Depth First Search (DFS)
+- Uniform Cost Search (UCS)
+- Depth Limited Search (DLS)
+- Iterative Deepening Search (IDS)
+waterjug.c  
+Application of search algorithms to solve the classic AI Water Jug problem.  
+
+## Uninformed-Search-Techniques
 This code implements several Uninformed Search Algorithms used in Artificial Intelligence to find paths in a graph.  
 The program constructs a graph in code and demonstrates how different search algorithms explore the graph to find a path between a start node and a goal node.  
 
@@ -28,14 +39,15 @@ For each algorithm, the program displays:
 
 ## Compilation
 Compile the program using GCC  
-`gcc search_algorithms.c -o search`  
+`gcc uninformed_search.c -o uninformed_search`  
 
 ## Running the Program
 `./search` 
 The program will automatically construct the graph and run all search algorithms.
 
 ## Project Structure
-search_algorithms.c   -> Implementation of all search algorithms  
+uninformed_search.c   -> Implementation of all search algorithms  
+waterjug.c            ->Water Jug problem using search  
 README.md             -> Project documentation  
 
 ## Concepts Used
